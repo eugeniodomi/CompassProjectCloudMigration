@@ -22,7 +22,7 @@ Em seguida, será realizada a **modernização da infraestrutura com Kubernetes*
 
 ### 🚀 Modernização
 - [Kubernetes Moderno](doc/modern/modern_k8s.md)
-- [Setup e Técnicas](doc/modern/setp_tecnicas.md)
+- [Setup e Técnicas](doc/modern/step_tecnicas.md)
 
 ### 🔄 Migração
 - [Visão Geral](doc/migration/migration_overview.md)
