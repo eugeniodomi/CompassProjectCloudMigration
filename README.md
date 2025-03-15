@@ -11,9 +11,9 @@ Posteriormente, após toda a migração para a AWS, tendo como a segunda etapa, 
 
 ## Objetivo
 
-O projeto visa realizar a migração da infraestrutura atual para a **AWS**, iniciando com um processo de **"lift-and-shift"**, garantindo uma transição rápida e segura, contando com sistema de failover. [FAQ do Projeto](https://www.notion.so/FAQ-do-Projeto-1a4b1a83c7778048aaaee6e514830e3b?pvs=21) 
+O projeto visa realizar a migração da infraestrutura atual para a **AWS**, iniciando com um processo de **"lift-and-shift"**, garantindo uma transição rápida e segura, contando com sistema de failover. 
 
-Em seguida, será realizada a **modernização da infraestrutura com Kubernetes**, aplicando as melhores práticas de arquitetura em Cloud Computing. Para saber mais sobre essa segunda etapa, acesse a página dedicada à **modernização com Kubernetes. [Migração para EKS](https://www.notion.so/Migra-o-para-EKS-1a4b1a83c7778010bb8dce98a73985ed?pvs=21)** 
+Em seguida, será realizada a **modernização da infraestrutura com Kubernetes**, aplicando as melhores práticas de arquitetura em Cloud Computing. Para saber mais sobre essa segunda etapa, acesse a página dedicada à **modernização com Kubernetes.** 
 
 ---
 
