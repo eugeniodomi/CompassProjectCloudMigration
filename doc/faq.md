@@ -184,11 +184,23 @@ https://calculator.aws/#/estimate?id=1deb627dd7529d6a7b4e341042305ca2bb0cd456
 
 ---
 
-> 💡 LINKS RAPIDOS:
-> 
+## Navegação
 
-[README](https://www.notion.so/README-1a4b1a83c77780ba80c2c924d6039926?pvs=21) 
+### 🚀 Modernização
+- [Kubernetes Moderno](doc/modern/modern_k8s.md)
+- [Setup e Técnicas](doc/modern/step_tecnicas.md)
 
----
+### 🔄 Migração
+- [Visão Geral](doc/migration/migration_overview.md)
+- [Migração de Banco de Dados](doc/migration/migration_bd.md)
+- [Migração para EC2](doc/migration/migration_ec2.md)
+- [Migração de Arquitetura Estática para ARM](doc/migration/static_arm.md)
 
-[Calculadora Geral](https://www.notion.so/Calculadora-Geral-1b6b1a83c77780c2ab44f9226bab8f44?pvs=21)
+### 🔒 Segurança
+- [Segurança na AWS](doc/security_aws.md)
+
+### ❓ FAQ
+- [Perguntas Frequentes](doc/faq.md)
+
+### 📚 Documentação Completa
+- [Ver Documento Completo](doc/full_doc.md)
