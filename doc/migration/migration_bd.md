@@ -117,3 +117,26 @@ Em resumo, a escolha do AWS DMS proporciona uma migração mais rápida, segura 
 - **Verificação de Consistência**: Realize uma verificação para confirmar que os dados não foram corrompidos ou perdidos durante o processo de migração.
 
 ---
+
+
+
+## Navegação
+
+### 🚀 Modernização
+- [Kubernetes Moderno](doc/modern/modern_k8s.md)
+- [Setup e Técnicas](doc/modern/step_tecnicas.md)
+
+### 🔄 Migração
+- [Visão Geral](doc/migration/migration_overview.md)
+- [Migração de Banco de Dados](doc/migration/migration_bd.md)
+- [Migração para EC2](doc/migration/migration_ec2.md)
+- [Migração de Arquitetura Estática para ARM](doc/migration/static_arm.md)
+
+### 🔒 Segurança
+- [Segurança na AWS](doc/security_aws.md)
+
+### ❓ FAQ
+- [Perguntas Frequentes](doc/faq.md)
+
+### 📚 Documentação Completa
+- [Ver Documento Completo](doc/full_doc.md)
