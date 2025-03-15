@@ -92,3 +92,24 @@ Navegação
 [Migração dos Servidores (Frontend e Backend) com AWS MGN](https://www.notion.so/Migra-o-dos-Servidores-Frontend-e-Backend-com-AWS-MGN-1b3b1a83c777800d9d25ed5a537034bf?pvs=21)
 
 [Armazenamento de Arquivos Estáticos no Amazon S3](https://www.notion.so/Armazenamento-de-Arquivos-Est-ticos-no-Amazon-S3-1b3b1a83c77780d3ad4ced2588a3d447?pvs=21)
+
+## Navegação
+
+### 🚀 Modernização
+- [Kubernetes Moderno](doc/modern/modern_k8s.md)
+- [Setup e Técnicas](doc/modern/step_tecnicas.md)
+
+### 🔄 Migração
+- [Visão Geral](doc/migration/migration_overview.md)
+- [Migração de Banco de Dados](doc/migration/migration_bd.md)
+- [Migração para EC2](doc/migration/migration_ec2.md)
+- [Migração de Arquitetura Estática para ARM](doc/migration/static_arm.md)
+
+### 🔒 Segurança
+- [Segurança na AWS](doc/security_aws.md)
+
+### ❓ FAQ
+- [Perguntas Frequentes](doc/faq.md)
+
+### 📚 Documentação Completa
+- [Ver Documento Completo](doc/full_doc.md)
