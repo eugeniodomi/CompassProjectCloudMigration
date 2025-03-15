@@ -149,3 +149,26 @@ location /static/ {
 
 Esses são os passos detalhados para migrar arquivos para o S3, configurar o Nginx para servir esses arquivos e usar o CloudFront para melhorar o desempenho. 
 Assim, ajustando as permissões e configurando corretamente as políticas de segurança para garantir o acesso apropriado aos arquivos.
+
+
+## Navegação
+
+### 🚀 Modernização
+- [Kubernetes Moderno](doc/modern/modern_k8s.md)
+- [Setup e Técnicas](doc/modern/step_tecnicas.md)
+
+### 🔄 Migração
+- [Visão Geral](doc/migration/migration_overview.md)
+- [Migração de Banco de Dados](doc/migration/migration_bd.md)
+- [Migração para EC2](doc/migration/migration_ec2.md)
+- [Migração de Arquitetura Estática para ARM](doc/migration/static_arm.md)
+
+### 🔒 Segurança
+- [Segurança na AWS](doc/security_aws.md)
+
+### ❓ FAQ
+- [Perguntas Frequentes](doc/faq.md)
+
+### 📚 Documentação Completa
+- [Ver Documento Completo](doc/full_doc.md)
+
