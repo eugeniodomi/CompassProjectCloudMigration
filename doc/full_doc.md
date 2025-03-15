@@ -168,7 +168,7 @@ sudo rpm -ivh aws-mgn-agent.rpm
 
 ```
 
-- Para **Windows**, execute o instalador `.exe` baixado, seguindo as instruções na tela.
+- Para **Windows**, execute o instalador `.exe` baixado, seguindo as instruções que apareceram tela.
 1. **Verificar a Instalação**:
 
 Após a instalação, inicie o agente:
