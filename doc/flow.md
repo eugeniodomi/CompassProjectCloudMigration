@@ -101,3 +101,26 @@ Explica a dinâmica do sistema, desde a entrada de dados até a entrega da funci
 ### **📌 Conclusão**
 
 **Essa arquitetura garante resiliência, eficiência e segurança, sendo uma das melhores opções para aplicações escaláveis na AWS.**
+---
+
+## Navegação
+
+### 🚀 Modernização
+- [Kubernetes Moderno](doc/modern/modern_k8s.md)
+- [Setup e Técnicas](doc/modern/step_tecnicas.md)
+
+### 🔄 Migração
+- [Visão Geral](doc/migration/migration_overview.md)
+- [Migração de Banco de Dados](doc/migration/migration_bd.md)
+- [Migração para EC2](doc/migration/migration_ec2.md)
+- [Migração de Arquitetura Estática para ARM](doc/migration/static_arm.md)
+
+### 🔒 Segurança
+- [Segurança na AWS](doc/security_aws.md)
+
+### ❓ FAQ
+- [Perguntas Frequentes](doc/faq.md)
+- [Fluxo de Funcionamento](doc/flow.md)
+
+### 📚 Documentação Completa
+- [Ver Documento Completo](doc/full_doc.md)
