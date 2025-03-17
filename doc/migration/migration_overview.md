@@ -17,10 +17,15 @@ Arquitetura de operação utilizada pelo cliente
 - **Frontend:** Servidor React (5GB de dados, 2GB de RAM, 1 Core CPU).
 - **Backend:** Servidor com 3 APIs, Nginx como balanceador de carga e armazenamento de arquivos estáticos (5GB de dados, 4GB de RAM, 2 Core CPU).
 
-## Estrutura Proposta na AWS
+## Estruturas Propostas na AWS
 
-![Arquitetura de operação proposta](../../images/---)
-dsgagswdgs
+Arquitetura Inicial As-Is:
+
+![Arquitetura de operação proposta inicial](../../images/arc1.png)
+
+Arquitetura Modernização Kubernetes:
+
+![Arquitetura de operação proposta modernização](../../images/faq2_diagram_arq.png)
 
 
 A migração inicial será feita com mínimas alterações, utilizando os seguintes serviços AWS:
