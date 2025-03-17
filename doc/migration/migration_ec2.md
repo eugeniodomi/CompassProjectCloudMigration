@@ -149,6 +149,7 @@ Este processo garante que a migração seja realizada de maneira controlada, com
 
 ### ❓ FAQ
 - [Perguntas Frequentes](doc/faq.md)
+- [Fluxo de Funcionamento](doc/flow.md)
 
 ### 📚 Documentação Completa
 - [Ver Documento Completo](doc/full_doc.md)
