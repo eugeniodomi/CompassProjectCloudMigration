@@ -30,11 +30,11 @@ EKS
 
 ## Qual o diagrama da empresa atual?
 
-...
+![On-premise para RDS](../images/over1_structure_original.png)
 
 ## Qual o diagrama da infraestrutura na AWS?
 
-…
+![On-premise para RDS](../images/faq2_diagram_arq.png)
 
 ## Como serão garantidos os requisitos de Segurança?
 
@@ -81,9 +81,11 @@ Este processo detalha os passos para a migração de servidores utilizando o **A
 
 ### Migração
 
+Estimativa de três dias para migração:
+
 - Custos da migração do banco de dados (72 horas de uso t3.large)
     - 10.51 USD
-- Custos de armazenamento
+- Custos de armazenamento DMS
     - 57.50 USD
 
 ### Estrutura
