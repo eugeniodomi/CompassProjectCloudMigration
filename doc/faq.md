@@ -30,11 +30,11 @@ EKS
 
 ## Qual o diagrama da empresa atual?
 
-...
+![On-premise para RDS](../images/over1_structure_original.png)
 
 ## Qual o diagrama da infraestrutura na AWS?
 
-…
+![On-premise para RDS](../images/faq2_diagram_arq.png)
 
 ## Como serão garantidos os requisitos de Segurança?
 
