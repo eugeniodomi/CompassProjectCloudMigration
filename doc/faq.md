@@ -217,6 +217,7 @@ Segurança de Containers e Kubernetes:
 
 ### ❓ FAQ
 - [Perguntas Frequentes](doc/faq.md)
+- [Fluxo de Funcionamento](doc/flow.md)
 
 ### 📚 Documentação Completa
 - [Ver Documento Completo](doc/full_doc.md)
