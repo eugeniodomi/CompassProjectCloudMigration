@@ -154,6 +154,7 @@ O fluxo de dados é orquestrado pelo DMS, garantindo que os dados sejam migrados
 
 ### ❓ FAQ
 - [Perguntas Frequentes](doc/faq.md)
+- [Fluxo de Funcionamento](doc/flow.md)
 
 ### 📚 Documentação Completa
 - [Ver Documento Completo](doc/full_doc.md)
