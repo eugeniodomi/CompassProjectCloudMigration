@@ -1,5 +1,9 @@
 # MODERNIZAÇÃO: KUBERNETES
 
+À medida que as aplicações crescem e demandam maior escalabilidade, confiabilidade e eficiência operacional, a migração para o Kubernetes (K8s) se torna uma solução estratégica. O Kubernetes permite a orquestração automatizada de contêineres, garantindo melhor disponibilidade, escalabilidade e gerenciamento dos serviços. Na AWS, o Elastic Kubernetes Service (EKS) facilita essa transição ao oferecer um ambiente gerenciado, reduzindo a complexidade operacional e permitindo que as equipes foquem no desenvolvimento e entrega contínua.
+
+A seguir, detalharemos as etapas essenciais para a migração do projeto para o Kubernetes na AWS.
+
 A migração do projeto para o Kubernetes na AWS envolve a adaptação e implantação dos serviços já configurados para rodar em um ambiente **Kubernetes (EKS)**.  Explicando as etapas:
 
 ### 1. **Cluster EKS (Elastic Kubernetes Service)**:
