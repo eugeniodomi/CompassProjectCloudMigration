@@ -63,7 +63,7 @@ Este processo detalha os passos para a migração de servidores utilizando o **A
 
 ### Banco de dados on-premise para RDS
 
-![image.png](image.png)
+![On-premise para RDS](../images/faq1_on-premise_rds.png)
 
 >Link de acesso a documentação oficial 💡
 >[Set up replication for AWS Database Migration Service](https://docs.aws.amazon.com/dms/latest/userguide/CHAP_GettingStarted.Replication.html)
@@ -88,6 +88,8 @@ Este processo detalha os passos para a migração de servidores utilizando o **A
     - 504.22 USD
 - Custo total anual
     - 6,050.64 USD
+
+![Estimativa Etapa 1](../images/estimate_faq1.png)
 
 >Link de acesso ao orçamento na AWS (March 15, 2025) 💡
 >[My Estimate - AWS](https://calculator.aws/#/estimate?id=934bc019249d8f441fd11dabf67c648a8cb619b5)
@@ -181,9 +183,12 @@ Segurança de Containers e Kubernetes:
 - Custo total anual
     - 11,734.08 USD
 
->Link de acesso ao orçamento na AWS (March 15, 2025) 💡
->[My Estimate - AWS](https://calculator.aws/#/estimate?id=1deb627dd7529d6a7b4e341042305ca2bb0cd456)
 
+![Estimativa Etapa 1](../images/estimate_faq1.png)
+
+
+>[My Estimate - AWS](https://calculator.aws/#/estimate?id=1deb627dd7529d6a7b4e341042305ca2bb0cd456)
+>Link de acesso ao orçamento na AWS (March 15, 2025) 💡
 
 ## Conclusão
 
