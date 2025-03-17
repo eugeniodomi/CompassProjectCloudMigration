@@ -19,6 +19,10 @@ Arquitetura de operação utilizada pelo cliente
 
 ## Estrutura Proposta na AWS
 
+![Arquitetura de operação proposta](../../images/---)
+dsgagswdgs
+
+
 A migração inicial será feita com mínimas alterações, utilizando os seguintes serviços AWS:
 
 - **Banco de Dados:** Amazon RDS MySQL Multi-AZ.
