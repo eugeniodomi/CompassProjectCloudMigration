@@ -35,6 +35,8 @@ Em seguida, será realizada a **modernização da infraestrutura com Kubernetes*
 
 ### ❓ FAQ
 - [Perguntas Frequentes](doc/faq.md)
+- [Fluxo de Funcionamento](doc/flow.md)
+
 
 ### 📚 Documentação Completa
 - [Ver Documento Completo](doc/full_doc.md)
