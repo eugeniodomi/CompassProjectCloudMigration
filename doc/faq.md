@@ -28,6 +28,10 @@ NAT
 
 EKS
 
+## Qual o diagrama da empresa atual?
+
+...
+
 ## Qual o diagrama da infraestrutura na AWS?
 
 …
