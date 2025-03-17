@@ -1,0 +1,55 @@
+# licença
+
+# Licença e Conformidade
+
+Este projeto foi desenvolvido como parte de uma migração de infraestrutura para a AWS. Abaixo estão descritas as licenças e requisitos de conformidade aplicáveis a este projeto. Ao usar este projeto, você concorda com os termos e condições estabelecidos.
+
+## Licença
+
+Este projeto é licenciado sob a **MIT License**. Você pode obter uma cópia completa da licença no arquivo LICENSE deste repositório ou no seguinte link:
+
+```yaml
+MIT License
+
+Copyright (c) [2025]
+
+Permissão é concedida, sem ônus, a qualquer pessoa que obtenha uma cópia deste software e dos arquivos de documentação associados (o "Software"), para usar o Software sem restrições, incluindo, sem limitação, os direitos de usar, copiar, modificar, mesclar, publicar, distribuir, sublicenciar e/ou vender cópias do Software, e permitir que pessoas a quem o Software seja fornecido o façam, sujeito às seguintes condições:
+
+A notificação de copyright acima e esta permissão devem ser incluídas em todas as cópias ou partes substanciais do Software.
+
+O Software é fornecido "COMO ESTÁ", sem qualquer garantia expressa ou implícita, incluindo, mas não se limitando às garantias de comercialização, adequação a um fim específico e não infração. Em nenhum caso os autores ou detentores dos direitos autorais serão responsáveis por qualquer reivindicação, dano ou outra responsabilidade, seja em uma ação de contrato, delito ou outro, decorrente de, ou em conexão com, o Software ou o uso ou outros negócios no Software.
+
+```
+
+### Restrições de Uso
+
+- **Uso Comercial:** A utilização deste projeto para fins comerciais é permitida desde que sejam seguidas as condições estabelecidas pela licença MIT.
+- **Distribuição:** Você pode distribuir o projeto, desde que o crédito aos autores originais seja mantido e as alterações feitas sejam claramente indicadas.
+- **Modificação:** É permitido modificar este projeto, mas todas as modificações devem ser divulgadas de acordo com as exigências da licença MIT.
+
+## Conformidade com a AWS
+
+Este projeto foi desenvolvido em conformidade com as melhores práticas de segurança e desempenho recomendadas pela AWS. Os seguintes serviços da AWS são utilizados no projeto:
+
+- **Amazon RDS MySQL Multi-AZ** para migração e gerenciamento de banco de dados.
+- **Amazon EC2** e **AWS Load Balancer** para servidores frontend e backend.
+- **Amazon S3** para armazenamento de arquivos estáticos.
+- **AWS IAM** para controle de acesso e permissões.
+- **AWS WAF** para proteção contra vulnerabilidades de segurança.
+- **AWS CloudTrail** e **AWS KMS** para monitoramento e gerenciamento de segurança.
+
+## Políticas de Segurança
+
+Para garantir a segurança do ambiente e dos dados, foram implementadas as seguintes práticas:
+
+- **Autenticação e Controle de Acesso:** O uso de **AWS IAM** assegura o controle rigoroso de permissões de acesso.
+- **Proteção de Dados Sensíveis:** **AWS KMS** é utilizado para a criptografia de dados sensíveis.
+- **Monitoramento e Auditoria:** A utilização de **AWS CloudTrail** permite a auditoria contínua e o registro de todas as ações de API para fins de segurança e conformidade.
+
+## Responsabilidade
+
+O usuário final é responsável por garantir que o uso deste projeto esteja em conformidade com todas as leis e regulamentações locais, incluindo as de privacidade de dados e proteção de informações sensíveis. A AWS fornece as ferramentas necessárias para garantir a segurança, mas a responsabilidade final recai sobre o usuário para implementar as políticas adequadas de segurança e conformidade.
+
+---
+
+A **MIT License** é uma licença permissiva, amplamente usada para projetos de código aberto, permitindo o uso, modificação e distribuição, desde que a notificação de copyright e a licença sejam incluídas.
