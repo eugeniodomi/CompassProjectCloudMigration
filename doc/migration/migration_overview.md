@@ -9,7 +9,7 @@ Dentro deste, terá a versão resumida do que foi feito e selecionado para soluc
 
 ## Estrutura Atual
 
-![Arquitetura de operação utilizada pelo cliente](image.png)
+![Arquitetura de operação utilizada pelo cliente](../../images/over1_structure_original.png)
 
 Arquitetura de operação utilizada pelo cliente
 
