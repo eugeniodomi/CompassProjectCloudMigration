@@ -55,6 +55,10 @@ Neste link, encontra-se as etapas técnicas necessárias para time de DevSecOps,
 
 ### ❓ FAQ
 - [Perguntas Frequentes](doc/faq.md)
+- [Fluxo de Funcionamento](doc/flow.md)
 
 ### 📚 Documentação Completa
 - [Ver Documento Completo](doc/full_doc.md)
+
+---
+
