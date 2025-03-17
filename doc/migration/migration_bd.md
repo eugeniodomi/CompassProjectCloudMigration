@@ -16,6 +16,25 @@ Em resumo, a escolha do AWS DMS proporciona uma migração mais rápida, segura 
 
 ---
 
+
+### Fluxo da Arquitetura do AWS Database Migration Service (DMS) 
+
+1. O **Source Database** fornece os dados a serem migrados.
+2. O **Source Endpoint** conecta o banco de dados de origem ao **Replication Instance**.
+3. A **Replication Instance** gerencia a migração através da **Replication Task**.
+4. A **Replication Task** executa a migração de dados entre o **Source Endpoint** e o **Target Endpoint**.
+5. O **Target Endpoint** envia os dados para o **Target Database** de destino.
+
+Esse fluxo é orquestrado pelo AWS DMS, garantindo uma migração eficiente e contínua dos dados, sem causar interrupções nos sistemas de origem ou destino.
+
+
+O fluxo de dados é orquestrado pelo DMS, garantindo que os dados sejam migrados de forma eficiente e sem interrupções significativas nos sistemas de origem e destino.
+
+![Arquitetura de operação utilizada pelo cliente](../../images/faq1_on-premise_rds.png)
+---
+
+
+---
 ## Implementação
 
 1. **Criar um Endpoint de Origem (Source Endpoint)**
@@ -31,8 +50,6 @@ Em resumo, a escolha do AWS DMS proporciona uma migração mais rápida, segura 
 4. **Executar e Monitorar a Migração**
     - Inicie a migração e monitore no **AWS DMS Console**.
     - Valide os dados no **Amazon RDS** após a conclusão.
-
----
 
 ## Passo a passo técnico da implementação
 
