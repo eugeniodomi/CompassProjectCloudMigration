@@ -203,7 +203,20 @@ Segurança de Containers e Kubernetes:
 >[My Estimate - AWS](https://calculator.aws/#/estimate?id=1deb627dd7529d6a7b4e341042305ca2bb0cd456)
 >Link de acesso ao orçamento na AWS (March 15, 2025) 💡
 
+## Orçamento
+
+A seguir, apresentamos a estimativa de custos para a implementação do projeto. A tabela abaixo detalha os valores correspondentes a cada item necessário para a execução, garantindo maior transparência e controle financeiro.
+
+![Estimativa Etapa 1](../images/table_budget.png)
+
+
 ## Conclusão
+
+Este projeto visa garantir uma migração eficiente e segura da infraestrutura on-premise para a AWS, utilizando serviços gerenciados para otimizar desempenho, escalabilidade e segurança. A transição ocorre em duas etapas: primeiro, replicamos a estrutura atual na nuvem com serviços como AWS MGN, RDS, EC2 e DMS; em seguida, modernizamos a aplicação com EKS e microserviços Docker, promovendo maior eficiência e flexibilidade.
+
+A implementação adota boas práticas de segurança, incluindo IAM, WAF, criptografia via KMS e políticas de segurança para Kubernetes, garantindo um ambiente resiliente contra ameaças. Além disso, a estimativa de custos permite um planejamento financeiro detalhado, proporcionando previsibilidade no investimento.
+
+Com essa abordagem estruturada, a migração não apenas reduz a complexidade operacional, mas também prepara a infraestrutura para suportar o crescimento futuro da aplicação com alto desempenho e confiabilidade.
 
 ---
 
