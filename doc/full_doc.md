@@ -846,6 +846,7 @@ Para garantir a segurança e conformidade de um ambiente na AWS, é essencial co
 
 ### ❓ FAQ
 - [Perguntas Frequentes](doc/faq.md)
+- [Fluxo de Funcionamento](doc/flow.md)
 
 ### 📚 Documentação Completa
 - [Ver Documento Completo](doc/full_doc.md)
