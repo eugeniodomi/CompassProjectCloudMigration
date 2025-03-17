@@ -226,6 +226,7 @@ Agora o projeto deve estar pronto para rodar no Kubernetes com o EKS, aproveitan
 
 ### ❓ FAQ
 - [Perguntas Frequentes](doc/faq.md)
+- [Fluxo de Funcionamento](doc/flow.md)
 
 ### 📚 Documentação Completa
 - [Ver Documento Completo](doc/full_doc.md)
