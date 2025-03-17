@@ -34,7 +34,14 @@ EKS
 
 ## Qual o diagrama da infraestrutura na AWS?
 
-![On-premise para RDS](../images/faq2_diagram_arq.png)
+#### Etapa As-Is
+
+![On-premise para RDS](../images/arc1.png) 
+
+#### Etapa Modernizção
+
+![On-premise para RDS](../images/faq2_diagram_arq.png) 
+
 
 ## Como serão garantidos os requisitos de Segurança?
 
@@ -150,7 +157,7 @@ ECR
 
 ## Qual o diagrama da infraestrutura na AWS?
 
-![projeto estagio(1)(2).png](projeto_estagio(1)(2).png)
+![On-premise para RDS](../images/faq2_diagram_arq.png)
 
 ## Como serão garantidos os requisitos de Segurança?
 
