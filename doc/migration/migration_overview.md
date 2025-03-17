@@ -33,7 +33,7 @@ A migração inicial será feita com mínimas alterações, utilizando os seguin
 
 Utilizaremos o **AWS Database Migration Service (AWS DMS)** para transferir os dados do MySQL local para o **Amazon RDS MySQL Multi-AZ**.
 
-[Migração do Banco de Dados (MySQL) com AWS DMS](doc/migration/migration_overview.md) 
+[Migração do Banco de Dados (MySQL) com AWS DMS](migration_overview.md) 
 
 ### Passos:
 
@@ -48,7 +48,7 @@ Utilizaremos o **AWS Database Migration Service (AWS DMS)** para transferir os d
 
 Utilizaremos o **AWS Application Migration Service (AWS MGN)** para migrar os servidores **frontend** e **backend** para **instâncias EC2** na AWS.
 
-[Migração dos Servidores (Frontend e Backend) com AWS MGN](doc/migration/ec2) 
+[Migração dos Servidores (Frontend e Backend) com AWS MGN](migration_ec2.md) 
 
 ### Passos:
 
@@ -62,7 +62,7 @@ Utilizaremos o **AWS Application Migration Service (AWS MGN)** para migrar os se
 
 Os arquivos estáticos serão movidos para o **Amazon S3** para melhorar desempenho e reduzir custos de infraestrutura.
 
-[Armazenamento de Arquivos Estáticos no Amazon S3](doc/migration/static_arm.md) 
+[Armazenamento de Arquivos Estáticos no Amazon S3](static_arm.md) 
 
 ### Passos:
 
