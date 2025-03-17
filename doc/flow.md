@@ -2,14 +2,14 @@
 
 Para facilitar a compreensão, apresentamos dois elementos essenciais para o entendimento do projeto:
 
-### **📌 Estrutura Completa da Arquitetura**  
+#### **📌 Estrutura Completa da Arquitetura**  
 Descreve os componentes principais e a organização do sistema, detalhando como as tecnologias e serviços se conectam.
 
-### **📌 Fluxo de Funcionamento**  
+#### **📌 Fluxo de Funcionamento**  
 Explica a dinâmica do sistema, desde a entrada de dados até a entrega da funcionalidade ao usuário, garantindo uma visão clara do processo.
 
 
-## **📌 Estrutura Completa da Arquitetura**
+# **Estrutura Completa da Arquitetura 📌**
 
 ### **Nível Global (Fora das Regiões da AWS)**
 
@@ -43,14 +43,14 @@ Explica a dinâmica do sistema, desde a entrada de dados até a entrega da funci
 
 ---
 
-## **📌 Fluxo de Funcionamento**
+# **Fluxo de Funcionamento📌**
 
 
-### **1️⃣ Cliente acessa o site**
+### **Cliente acessa o site**
 
 🔹 O usuário digita `siteempresa.com` → Route 53 resolve o domínio.
 
-### **2️⃣ Segurança e distribuição de tráfego**
+### **Segurança e distribuição de tráfego**
 
 🔹 O tráfego passa pelo **CloudFront (com WAF ativado)**:
 
@@ -58,21 +58,21 @@ Explica a dinâmica do sistema, desde a entrada de dados até a entrega da funci
 - Se for um **arquivo estático**, CloudFront busca no S3.
 - Se for uma **requisição dinâmica**, CloudFront encaminha para o ALB.
 
-### **3️⃣ Load Balancer distribui para o EKS**
+### **Load Balancer distribui para o EKS**
 
 🔹 O **ALB** recebe a requisição e redireciona:
 
 - Se for frontend → Envia para o **Node 1 (Frontend)** no EKS.
 - Se for backend → Envia para o **Node 2 (APIs Backend)** no EKS.
 
-### **4️⃣ Backend processa a requisição e acessa o banco**
+### **Backend processa a requisição e acessa o banco**
 
 🔹 As APIs no Node 2 processam a lógica de negócio e acessam o banco de dados:
 
 - Escritas vão para o **Primary DB**.
 - Leituras são balanceadas entre **Read Replica 1 e 2**.
 
-### **5️⃣ Resposta é enviada de volta para o cliente**
+### **Resposta é enviada de volta para o cliente**
 
 🔹 O backend retorna os dados ao frontend → O frontend exibe as informações na interface.
 
