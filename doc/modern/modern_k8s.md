@@ -33,7 +33,10 @@ A migração do projeto para o Kubernetes na AWS envolve a adaptação e implant
 - O Kubernetes facilita a **escalabilidade** dos seus serviços por meio de **Horizontal Pod Autoscaling**.
 - **CloudWatch** é usado para monitorar logs e métricas, garantindo que o ambiente esteja funcionando de maneira eficiente e segura.
 
-[Etapas técnicas](https://www.notion.so/Etapas-t-cnicas-1b6b1a83c77780bd88dee51f4d8b88dc?pvs=21)
+
+
+Neste link, encontra-se as etapas técnicas necessárias para time de DevSecOps, auxiliando na implementação
+🔗 [Etapas Técnicas](step_tecnicas.md) 
 
 ## Navegação
 
