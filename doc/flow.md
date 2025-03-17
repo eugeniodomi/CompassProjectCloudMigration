@@ -1,13 +1,22 @@
 # Fluxo de funcionamento
 
+Para facilitar a compreensão, apresentamos dois elementos essenciais para o entendimento do projeto:
+
+### **📌 Estrutura Completa da Arquitetura**  
+Descreve os componentes principais e a organização do sistema, detalhando como as tecnologias e serviços se conectam.
+
+### **📌 Fluxo de Funcionamento**  
+Explica a dinâmica do sistema, desde a entrada de dados até a entrega da funcionalidade ao usuário, garantindo uma visão clara do processo.
+
+
 ## **📌 Estrutura Completa da Arquitetura**
 
-### **1️⃣ Nível Global (Fora das Regiões da AWS)**
+### **Nível Global (Fora das Regiões da AWS)**
 
 - **Route 53 (DNS)** → Resolve o domínio e direciona o tráfego.
 - **CloudFront (CDN) com WAF** → Protege contra ataques, melhora a performance e reduz carga nos servidores.
 
-### **2️⃣ Nível Regional (us-east-1, em Múltiplas AZs)**
+### **Nível Regional (us-east-1, em Múltiplas AZs)**
 
 ### **(A) Tráfego Web**
 
@@ -32,11 +41,14 @@
     - **Usado para arquivos estáticos**, como imagens, vídeos e documentos.
     - **Acessado via CloudFront** para melhorar performance.
 
-**📌 Fluxo de Funcionamento**
+---
+
+## **📌 Fluxo de Funcionamento**
+
 
 ### **1️⃣ Cliente acessa o site**
 
-🔹 O usuário digita `meusite.com` → Route 53 resolve o domínio.
+🔹 O usuário digita `siteempresa.com` → Route 53 resolve o domínio.
 
 ### **2️⃣ Segurança e distribuição de tráfego**
 
@@ -66,22 +78,22 @@
 
 ## **📌 Benefícios da Arquitetura**
 
-✅ **Alta Disponibilidade**:
+**Alta Disponibilidade**:
 
 - EKS rodando em **múltiplas AZs**.
 - **Banco de dados Multi-AZ** com failover automático.
 
-✅ **Escalabilidade**:
+**Escalabilidade**:
 
 - Load Balancer e Kubernetes escalam os pods automaticamente.
 - Read Replicas distribuem as consultas ao banco.
 
-✅ **Segurança**:
+**Segurança**:
 
 - **CloudFront + WAF** bloqueiam ataques antes de chegarem ao backend.
 - **RDS Multi-AZ** protege contra falhas no banco.
 
-✅ **Performance Otimizada**:
+**Performance Otimizada**:
 
 - **CloudFront faz caching** de arquivos estáticos.
 - **Read Replicas aliviam a carga do banco**.
