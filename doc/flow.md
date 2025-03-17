@@ -101,6 +101,7 @@ Explica a dinâmica do sistema, desde a entrada de dados até a entrega da funci
 ### **📌 Conclusão**
 
 **Essa arquitetura garante resiliência, eficiência e segurança, sendo uma das melhores opções para aplicações escaláveis na AWS.**
+
 ---
 
 ## Navegação
